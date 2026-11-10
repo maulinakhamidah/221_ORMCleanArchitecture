@@ -7,16 +7,3 @@ module.exports = {
     'seeders-path': path.resolve('seeders'),
     'migrations-path': path.resolve('migrations')
   },
-  test: {
-    config: path.resolve('config', 'config.json'),
-    'models-path': path.resolve('models'),
-    'seeders-path': path.resolve('seeders'),
-    'migrations-path': path.resolve('migrations')
-  },
-  production: {
-    config: path.resolve('config', 'config.json'),
-    'models-path': path.resolve('models'),
-    'seeders-path': path.resolve('seeders'),
-    'migrations-path': path.resolve('migrations')
-  }
-};
