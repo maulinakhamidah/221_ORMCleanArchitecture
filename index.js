@@ -1,3 +1,4 @@
 
-const connectDatabase = require('./config/db');
+
+const app = express();
 
