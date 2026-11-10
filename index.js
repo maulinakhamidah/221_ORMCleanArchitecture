@@ -1,4 +1,4 @@
 
 
-async function startServer() {
 
+    await connectDatabase();
