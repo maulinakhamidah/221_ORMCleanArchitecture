@@ -1,0 +1,21 @@
+require("dotenv").config();
+
+const development ={
+  username: username = process.env.DB_USER,
+}
+
+const production = {
+  use_env_Variable: "POSTGRES_URL",
+  dialect: "posgres",
+  dialectOptions: {
+    ssl: {
+      rejectUnauthorized: false
+    }
+
+  }
+};
+
+module.exports = {
+  development,
+  production
+}
